@@ -1,0 +1,55 @@
+.container {
+	width: 1280px;
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+}
+
+.banner {
+  position: relative;
+	width: 1280px;
+	height: 500px;
+	background: url('../img/sharejs_hero_image.jpg');
+  background-size: cover;
+}
+
+.header {
+  height: 60px;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.banner-sub-heading {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  font-size: 36px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.banner-buttons-container {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  margin-left: -198px;
+}
+
+.banner-buttons {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: transparent;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  padding: 15px 45px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.left-sidebar-container {
+  float: left;
+  width: 270px;
+  height: 100%;
+  background: #DCDCDC;
+}
+
+.main-content-container {
+  float: right;
+  padding: 35px;
+}
