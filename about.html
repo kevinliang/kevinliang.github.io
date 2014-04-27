@@ -1,0 +1,48 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <div class="header">
+    <div class="header-inner">
+      <a href="index.html">SHARE.JS</a>
+    </div>
+  </div>
+  <div class="about-container">
+    <div class="left-sidebar-container">
+      <ul class="sidebar-nav">
+        <li>Get the code</li>
+        <li>Getting started</li>
+        <li>Using elements</li>
+        <li>Creating elements</li>
+        <li>The platform</li>
+        <li>Concepts</li>
+      </ul>
+    </div>
+    <div class="content-right">
+      <div class="about-banner banner">
+        <div class="about-subheading">
+          Getting started
+        </div>
+        <div class="about-description">
+          Installation and Dependencies
+        </div>
+      </div>
+      <div class="main-content-container">
+        <div class="main-content-heading">
+          Introduction
+        </div>
+        <p>You're writing a web app. Your app contains data that users edit. Your users should be able to use your app from multiple computers if they need to. Sometimes you want multiple users to view & edit the same data.</p>
+        <p>How do you make that work, without the data going out of sync and without losing anything?</p>
+        <p>One option is to have Submit buttons everywhere. Stackexchange, Reddit and Hacker News work like this. You can't write half a HN comment from your laptop and half from your phone. Most wikis have a 'save' button and do locking. It's like the ghostly hand of visual sourcesafe has somehow infected the web with sloppy engineering and a terrible user experience. If your wiki lock expires while you're doing a big edit, you're in a world of hurt.</p>
+        <p>The solution is Operational Transform (OT). If you haven't heard of it, OT is a calss of algorithms that do multi-site realtime concurrency. OT is like realtime git. It works with any amount of lag (from zero to an extended holiday). It lets users make live, concurrent edits with low bandwidth. OT gives you eventual consistency between multiple users without retries, without erros and without being overwritten.</p>
+        <p>Unfortunately, implementing OT sucks. There's a million algorithms with different tradeoffs, mostly trapped in academic papers. The algorithms are really hard and time consuming to implement correctly. We need some good libraries, so any project can just plug in OT if they need it.</p>
+        <p>I am an ex Google Wave engineer. Wave took 2 years to write and if we rewrote it today, it would take almost as long to write a second time. (What??)</p>
+        <p>Enter ShareJS. ShareJS is a simple (~4k LOC) coffeescript server & web client library for OT. With ShareJS, your website can let your users collaboratively edit text documents and arbitrary JSON data in realtime. (Like this one.)</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

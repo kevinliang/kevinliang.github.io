@@ -28,6 +28,15 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+a:visited {
+	text-decoration: none;
+	color: #939393;
+}
+a {
+	text-decoration: none;
+	color: #939393;
+}
 body {
 	line-height: 1;
 }
